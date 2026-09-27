@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="English Adventure: a bilingual English–Vietnamese adventure game that teaches young learners exam vocabulary through play. For children aged 6+.">
-<link rel="icon" href="assets/owl.png">
+<link rel="icon" href="/assets/owl.png">
 <meta property="og:title" content="English Adventure">
 <meta property="og:image" content="https://www.englishadventuregame.com/assets/og.jpg">
-<title>English Adventure</title>
+<title>Privacy Policy · English Adventure</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:ital,wght@0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <style>
@@ -196,7 +196,7 @@ footer a{color:#fff}
 .preview-note{background:#fff4cc;border-bottom:3px solid #000;text-align:center;font-size:13px;padding:6px 12px;font-weight:700}
 
 /* Owly */
-#owly{position:fixed;right:22px;top:0;z-index:25;width:68px;height:96px;background:url(assets/owly_fly.png) 0 0/544px 96px no-repeat;image-rendering:pixelated;animation:flap .6s steps(8) infinite;pointer-events:none;will-change:transform;filter:drop-shadow(0 6px 0 rgba(0,0,0,.15))}
+#owly{position:fixed;right:22px;top:0;z-index:25;width:68px;height:96px;background:url(/assets/owly_fly.png) 0 0/544px 96px no-repeat;image-rendering:pixelated;animation:flap .6s steps(8) infinite;pointer-events:none;will-change:transform;filter:drop-shadow(0 6px 0 rgba(0,0,0,.15))}
 @keyframes flap{to{background-position:-544px 0}}
 
 /* lightbox */
@@ -236,287 +236,52 @@ body.vi .brand span{font-family:'Press Start 2P',monospace}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
+<style>
+.policy{max-width:760px;margin:40px auto 80px;background:var(--cream);border:var(--px) solid #000;box-shadow:0 6px 0 #000;padding:32px 34px}
+.policy h1{font-size:clamp(14px,2.4vw,20px);margin:0 0 6px}
+body.vi .policy h1{font-size:30px}
+.policy .upd{color:var(--muted);font-size:14px;margin:0 0 20px}
+.policy h2{font-size:18px;margin:26px 0 6px;color:var(--wood-dk)}
+.policy p,.policy li{font-size:16px}
+.policy li{margin:8px 0}
+@media (max-width:640px){.policy{margin:20px 14px 60px;padding:22px 20px}}
+</style>
 </head>
 <body>
-
 <nav>
   <div class="wrap">
-    <a class="brand" href="#top"><img src="assets/owl.png" alt=""><span class="px">English Adventure</span></a>
-    <div class="links">
-      <a href="#why"><span data-en>Why it works</span><span data-vi>Vì sao hiệu quả</span></a>
-      <a href="#see"><span data-en>See it</span><span data-vi>Xem thử</span></a>
-      <a href="#words"><span data-en>The words</span><span data-vi>Từ vựng</span></a>
-      <a href="#teachers"><span data-en>Teachers</span><span data-vi>Giáo viên</span></a>
-    </div>
+    <a class="brand" href="/"><img src="/assets/owl.png" alt=""><span class="px">English Adventure</span></a>
+    <div class="links"><a href="/"><span data-en>← Back to home</span><span data-vi>← Về trang chủ</span></a></div>
     <div class="lang" role="group" aria-label="Language">
       <button id="b-en" aria-pressed="true"><span>EN</span><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="uk1"><path d="M0,0v30h60V0z"/></clipPath><clipPath id="uk2"><path d="M30,15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#uk1)"><path d="M0,0v30h60V0z" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" clip-path="url(#uk2)" stroke="#C8102E" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></g></svg></button>
       <button id="b-vi" aria-pressed="false"><span>VI</span><svg class="flag" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#DA251D"/><polygon fill="#FFFF00" points="15,4 16.18,7.64 20,7.64 16.9,9.88 18.09,13.52 15,11.27 11.91,13.52 13.1,9.88 10,7.64 13.82,7.64"/></svg></button>
     </div>
   </div>
 </nav>
-
-<div id="owly" aria-hidden="true"></div>
-
-<header class="hero" id="top">
-  <canvas id="banner" width="320" height="180" role="img" aria-label="English Adventure: an explorer looks towards a castle as the logo appears and lightning flashes"></canvas>
-  <div class="box">
-    <div class="dialog">
-      <h1 class="px"><span data-en>Learn English on a real adventure.</span><span data-vi>Học tiếng Anh qua một cuộc phiêu lưu thật sự.</span></h1>
-      <p><span data-en>Explore colourful zones, meet friendly characters and collect the English words young learners need for international exams — with every line in English and Vietnamese. For children aged 6+.</span><span data-vi>Khám phá những vùng đất đầy màu sắc, gặp gỡ nhân vật thân thiện và sưu tầm những từ tiếng Anh các em cần cho các kỳ thi quốc tế dành cho thiếu nhi — mọi câu thoại đều có tiếng Anh và tiếng Việt. Dành cho trẻ từ 6 tuổi.</span></p>
-      <div class="ribbon">
-        <div class="seal"><svg viewBox="0 0 9 9" shape-rendering="crispEdges"><path fill="#000" d="M1 4h1v1H1zM2 5h1v1H2zM3 6h1v1H3zM4 5h1v1H4zM5 4h1v1H5zM6 3h1v1H6zM7 2h1v1H7z"/></svg></div>
-        <p><span data-en><b>Exam-ready vocabulary.</b> Every word comes from the official word lists used in young learner English exams.</span><span data-vi><b>Từ vựng chuẩn thi.</b> Mọi từ đều lấy từ danh sách từ vựng chính thức của các kỳ thi tiếng Anh dành cho thiếu nhi.</span></p>
-      </div>
-      <div class="ctas">
-        <a class="btn primary" href="#contact">▶ <span data-en>Coming soon to Google Play</span><span data-vi>Sắp có trên Google Play</span></a>
-        <a class="btn" href="#why"><span data-en>For parents</span><span data-vi>Cho phụ huynh</span></a>
-      </div>
-      <span class="next" aria-hidden="true"></span>
-    </div>
-  </div>
-</header>
-
-<section class="sky" id="why">
-  <div class="wrap">
-    <div class="guide">
-      <img src="assets/owl.png" alt="">
-      <div class="bubble">
-        <h2 class="px"><span data-en>Hoot! Here's why families love it.</span><span data-vi>Hú hú! Vì sao các gia đình yêu thích.</span></h2>
-        <p><span data-en>Tap a card to see it in the game.</span><span data-vi>Bấm vào một thẻ để xem trong game.</span></p>
-      </div>
-    </div>
-    <div class="grid" role="list">
-      <button class="card" data-panel="lang" aria-expanded="false" role="listitem">
-        <svg viewBox="0 0 11 11" aria-hidden="true" shape-rendering="crispEdges"><path fill="#000" d="M3 3h5v1H3zM1 4h2v1H1zM8 4h2v1H8zM0 5h1v1H0zM10 5h1v1h-1zM1 6h2v1H1zM8 6h2v1H8zM3 7h5v1H3z"/><path fill="#fff" d="M3 4h5v3H3zM1 5h2v1H1zM8 5h2v1H8z"/><path fill="#2f8fe0" d="M4 4h3v3H4z"/><path fill="#000" d="M5 5h1v1H5z"/></svg>
-        <h3><span data-en>Shown first, then practised</span><span data-vi>Chỉ trước, rồi luyện tập</span></h3>
-        <p><span data-en>Every word and sentence is modelled first — seen and heard — before children try it themselves.</span><span data-vi>Mỗi từ và câu đều được làm mẫu trước — nhìn và nghe — rồi trẻ mới tự làm.</span></p>
-        <span class="more"><span data-en>▸ SEE IT</span><span data-vi>▸ XEM</span></span>
-      </button>
-      <button class="card" data-panel="dual" aria-expanded="false" role="listitem">
-        <svg viewBox="0 0 11 11" aria-hidden="true" shape-rendering="crispEdges"><path fill="#000" d="M1 1h7v1H1zM0 2h1v4H0zM8 2h1v4H8zM1 6h2v1H1zM4 6h4v1H4zM2 7h1v1H2z"/><path fill="#66ccff" d="M1 2h7v4H1z"/><path fill="#000" d="M3 4h1v1H3zM5 4h1v1H5z"/><path fill="#ff9906" d="M5 5h5v4H5z"/><path fill="#000" d="M5 4h5v1H5zM4 5h1v4H4zM10 5h1v4h-1zM5 9h5v1H5zM8 10h1v1H8z"/></svg>
-        <h3><span data-en>Two languages, side by side</span><span data-vi>Song ngữ, song song</span></h3>
-        <p><span data-en>Every line in English and Vietnamese — read one, or both to learn even more.</span><span data-vi>Mọi câu thoại có tiếng Anh và tiếng Việt — đọc một, hoặc cả hai để học nhiều hơn.</span></p>
-        <span class="more"><span data-en>▸ SEE IT</span><span data-vi>▸ XEM</span></span>
-      </button>
-      <button class="card" data-panel="play" aria-expanded="false" role="listitem">
-        <svg viewBox="0 0 11 11" aria-hidden="true" shape-rendering="crispEdges"><path fill="#000" d="M2 2h7v1H2zM1 3h1v5H1zM9 3h1v5H9zM2 8h2v1H2zM7 8h2v1H7zM4 7h3v1H4z"/><path fill="#6cc24a" d="M2 3h7v4H2zM2 7h2v1H2zM7 7h2v1H7z"/><path fill="#000" d="M3 4h1v2H3zM2 5h3v-1H2zM7 4h1v1H7zM6 5h1v1H6z"/></svg>
-        <h3><span data-en>Learn by playing</span><span data-vi>Học qua chơi</span></h3>
-        <p><span data-en>Words come from exploring, talking and mini-games — not lists.</span><span data-vi>Từ vựng đến từ khám phá, trò chuyện và trò chơi nhỏ — không phải danh sách.</span></p>
-        <span class="more"><span data-en>▸ SEE IT</span><span data-vi>▸ XEM</span></span>
-      </button>
-      <button class="card" data-panel="practise" aria-expanded="false" role="listitem">
-        <svg viewBox="0 0 11 11" aria-hidden="true" shape-rendering="crispEdges"><path fill="#000" d="M1 2h4v1H1zM6 2h4v1H6zM0 3h1v6H0zM10 3h1v6h-1zM5 3h1v7H5zM1 9h4v1H1zM6 9h4v1H6z"/><path fill="#fbf3df" d="M1 3h4v6H1zM6 3h4v6H6z"/><path fill="#2f8fe0" d="M2 4h2v1H2zM2 6h2v1H2zM7 4h2v1H7zM7 6h2v1H7z"/></svg>
-        <h3><span data-en>Practise as much as they like</span><span data-vi>Luyện tập thoải mái</span></h3>
-        <p><span data-en>Learn, listen, spell, build sentences and race the clock — again and again.</span><span data-vi>Học, nghe, đánh vần, ghép câu và thi với thời gian — bao nhiêu lần cũng được.</span></p>
-        <span class="more"><span data-en>▸ SEE IT</span><span data-vi>▸ XEM</span></span>
-      </button>
-      <button class="card" data-panel="safe" aria-expanded="false" role="listitem">
-        <svg viewBox="0 0 11 11" aria-hidden="true" shape-rendering="crispEdges"><path fill="#000" d="M2 1h7v1H2zM1 2h1v5H1zM9 2h1v5H9zM2 7h1v1H2zM8 7h1v1H8zM3 8h1v1H3zM7 8h1v1H7zM4 9h3v1H4z"/><path fill="#ff9906" d="M2 2h7v5H2zM3 7h5v1H3zM4 8h3v1H4z"/><path fill="#000" d="M3 5h1v1H3zM4 6h1v1H4zM5 5h1v1H5zM6 4h1v1H6zM7 3h1v1H7z"/></svg>
-        <h3><span data-en>Safe for children</span><span data-vi>An toàn cho trẻ</span></h3>
-        <p><span data-en>No ads, no chat, no account, no personal data.</span><span data-vi>Không quảng cáo, không trò chuyện, không tài khoản, không dữ liệu cá nhân.</span></p>
-        <span class="more"><span data-en>▸ READ MORE</span><span data-vi>▸ XEM THÊM</span></span>
-      </button>
-    </div>
-
-    <div class="reveal" id="reveal" aria-live="polite">
-      <button class="close" id="rclose">✕ <span data-en>CLOSE</span><span data-vi>ĐÓNG</span></button>
-      <div class="inner">
-        <div class="text" id="rtext"></div>
-        <div class="shots2" id="rshots"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="see">
-  <div class="wrap">
-    <div class="guide">
-      <img src="assets/owl.png" alt="">
-      <div class="bubble"><h2 class="px"><span data-en>Take a look inside the game!</span><span data-vi>Cùng xem bên trong game nhé!</span></h2></div>
-    </div>
-    <div class="viewer">
-      <div class="stage">
-        <img id="gimg" alt="">
-        <button class="nav prev" id="gprev" aria-label="Previous">◀</button>
-        <button class="nav next2" id="gnext" aria-label="Next">▶</button>
-      </div>
-      <div class="cap"><span id="gcap"></span><span class="count" id="gcount"></span></div>
-      <div class="thumbs" id="gthumbs"></div>
-    </div>
-  </div>
-</section>
-
-<section class="exam" id="words">
-  <div class="wrap">
-    <div>
-      <div class="guide" style="margin-bottom:18px">
-        <img src="assets/owl.png" alt="">
-        <div class="bubble"><h2 class="px"><span data-en>Let's start!</span><span data-vi>Cùng bắt đầu nào!</span></h2></div>
-      </div>
-      <p><span data-en>We didn't pick words at random. Every word in English Adventure comes from the official vocabulary lists that international English exams for young learners are built on — the same words children meet in their first English certificates.</span><span data-vi>Chúng tôi không chọn từ một cách ngẫu nhiên. Mọi từ trong English Adventure đều lấy từ danh sách từ vựng chính thức mà các kỳ thi tiếng Anh quốc tế dành cho thiếu nhi sử dụng — chính là những từ các em gặp trong những chứng chỉ tiếng Anh đầu tiên.</span></p>
-      <p><span data-en>So every minute of play builds towards something real: confidence on exam day.</span><span data-vi>Vì vậy mỗi phút chơi đều hướng tới một mục tiêu thật: tự tin trong ngày thi.</span></p>
-      <div class="lvrow"><span class="lvl" style="background:#bfe8ff">PRE-A1</span><span class="lvtxt"><span data-en>Available now</span><span data-vi>Đã có</span></span></div>
-      <div class="lvrow"><span class="lvl soon" style="background:#c9f0a8">A1</span><span class="lvl soon" style="background:#ffd79a">A2</span><span class="lvtxt"><span data-en>Coming in future releases</span><span data-vi>Sắp có trong các phiên bản sau</span></span></div>
-      <p class="future"><span data-en>This first release covers the first young learner exam level. All of the young learner levels will follow in later releases, so English Adventure can grow with your child from their very first words.</span><span data-vi>Phiên bản đầu tiên bao gồm cấp độ đầu tiên của các kỳ thi dành cho thiếu nhi. Tất cả các cấp độ dành cho thiếu nhi sẽ có trong những phiên bản sau, để English Adventure đồng hành cùng con bạn ngay từ những từ đầu tiên.</span></p>
-    </div>
-    <div class="words" aria-label="Example words">
-      <span class="word" style="--r:-2deg">apple</span><span class="word" style="--r:1deg">house</span><span class="word" style="--r:-1deg">table</span>
-      <span class="word" style="--r:2deg">book</span><span class="word" style="--r:-3deg">cat</span><span class="word" style="--r:1deg">bike</span>
-      <span class="word" style="--r:-1deg">door</span><span class="word" style="--r:2deg">fish</span><span class="word" style="--r:-2deg">tree</span>
-      <span class="word" style="--r:1deg">garden</span><span class="word" style="--r:-1deg">sun</span><span class="word" style="--r:2deg">ball</span>
-    </div>
-  </div>
-</section>
-
-<section class="strip" id="teachers">
-  <div class="stars"></div>
-  <div class="wrap">
-    <div class="badge"><span data-en>13<br>YEARS<br>TEACHING</span><span data-vi>13<br>NĂM<br>GIẢNG DẠY</span></div>
-    <div>
-      <h2 class="px"><span data-en>Made by a teacher with 13 years in Vietnamese classrooms</span><span data-vi>Do một giáo viên với 13 năm giảng dạy tại Việt Nam tạo ra</span></h2>
-      <p style="margin-bottom:14px"><span data-en>English Adventure grew out of 13 years of teaching English to children in Vietnam — seeing what helps young learners remember words, and what makes them want to keep going.</span><span data-vi>English Adventure ra đời từ 13 năm dạy tiếng Anh cho trẻ em tại Việt Nam — từ việc hiểu điều gì giúp các em nhớ từ, và điều gì khiến các em muốn học tiếp.</span></p>
-      <div class="two">
-        <div><h3 class="px"><span data-en>For students</span><span data-vi>Cho học sinh</span></h3><p><span data-en>Built around how Vietnamese children actually learn: support in their own language, every word shown before it's practised, and plenty of fun to keep them coming back.</span><span data-vi>Được xây dựng dựa trên cách trẻ em Việt Nam thực sự học: hỗ trợ bằng tiếng mẹ đẻ, mỗi từ đều được chỉ trước khi luyện tập, và thật nhiều niềm vui để các em muốn quay lại.</span></p></div>
-        <div><h3 class="px"><span data-en>For teachers</span><span data-vi>Cho giáo viên</span></h3><p><span data-en>Words follow young learner exam word lists and are grouped by theme, the way you'd plan a unit. Set a zone as homework, pre-teach a topic, or use Time Trial as a warm-up. Want the word lists by zone? Just ask.</span><span data-vi>Từ vựng theo danh sách từ của các kỳ thi dành cho thiếu nhi và được sắp xếp theo chủ đề, như cách thầy cô lên kế hoạch bài học. Giao một vùng đất làm bài tập về nhà, dạy trước một chủ đề, hoặc dùng Time Trial để khởi động. Cần danh sách từ vựng theo vùng? Hãy liên hệ.</span></p></div>
-      </div>
-    </div>
-    <a class="btn primary" href="#contact"><span data-en>Get in touch</span><span data-vi>Liên hệ</span></a>
-  </div>
-</section>
-
-<footer id="contact">
-  <div class="wrap">
-    <div><strong style="color:#fff">English Adventure</strong> · Open World Learning<br><a href="mailto:englishadventuregame@gmail.com">englishadventuregame@gmail.com</a></div>
-    <div><a href="/privacy-policy"><span data-en>Privacy Policy</span><span data-vi>Chính sách quyền riêng tư</span></a> · <span data-en>Made in Vietnam</span><span data-vi>Sản xuất tại Việt Nam</span></div>
-  </div>
-</footer>
-
-<div class="lb" id="lb" role="dialog" aria-label="Screenshot"><img id="lbimg" alt=""></div>
-
+<main class="policy"><div data-en><h1 class="px">Privacy Policy</h1><p class="upd">Last updated 27 September 2026</p>
+<h2>Overview</h2><p>English Adventure (“the app”) is a bilingual English–Vietnamese vocabulary and adventure game published by Open World Learning English Adventure. This policy explains what information the app collects, why, and how it is handled.</p>
+<h2>Information we collect</h2><p>English Adventure works without an account or personal details. The app does not ask for your name, email address or contact details. Some information may still pass through the app indirectly:</p>
+<ul><li><b>Google Play services.</b> If you install the app from Google Play, Google collects account and device information under its own privacy policy to handle installation, updates and crash reports.</li><li><b>Gameplay data stored on your device.</b> Progress, settings and saved games are stored only on your device so you can carry on playing. This information is not sent to us.</li><li><b>Diagnostic information.</b> If the app crashes, basic technical details (such as device type and error logs) may be collected through Google Play’s standard developer tools to help us fix bugs. These reports are not linked to your identity.</li></ul>
+<h2>How information is used</h2><p>Any information above is used only to run, maintain and improve the app, for example to fix crashes. We do not sell personal information, and we do not use it for advertising or profiling.</p>
+<h2>Children’s privacy</h2><p>English Adventure is an educational game suitable for children. We do not knowingly collect personal information from children. The app has no in-app chat, no sharing of user content and no open internet browsing.</p>
+<h2>Data sharing</h2><p>We do not share, rent or sell any information to third parties for marketing. Limited technical data may be visible to Google as the app store, under <a href="https://policies.google.com/privacy">Google’s privacy policy</a>.</p>
+<h2>Data security</h2><p>Gameplay data stays on your device. We take reasonable steps to keep any diagnostic data we receive secure, and we keep only what we need to fix problems.</p>
+<h2>Changes to this policy</h2><p>We may update this policy as the app changes. The “last updated” date at the top will always show the latest version. Continuing to use the app after an update means you accept the revised policy.</p>
+<h2>Contact us</h2><p>Questions about this policy: <a href="mailto:englishadventuregame@gmail.com">englishadventuregame@gmail.com</a></p></div><div data-vi><h1 class="px">Chính sách quyền riêng tư</h1><p class="upd">Cập nhật lần cuối: 27 tháng 9 năm 2026. Nếu có khác biệt giữa hai bản, bản tiếng Anh được ưu tiên.</p>
+<h2>Tổng quan</h2><p>English Adventure (“ứng dụng”) là trò chơi phiêu lưu học từ vựng song ngữ Anh–Việt do Open World Learning English Adventure phát hành. Chính sách này giải thích ứng dụng thu thập thông tin gì, tại sao và cách thông tin được xử lý.</p>
+<h2>Thông tin chúng tôi thu thập</h2><p>English Adventure hoạt động mà không cần tài khoản hay thông tin cá nhân. Ứng dụng không hỏi tên, email hay thông tin liên lạc của bạn. Một số thông tin vẫn có thể đi qua ứng dụng một cách gián tiếp:</p>
+<ul><li><b>Dịch vụ Google Play.</b> Khi bạn cài ứng dụng từ Google Play, Google thu thập thông tin tài khoản và thiết bị theo chính sách riêng của Google để cài đặt, cập nhật và báo cáo lỗi.</li><li><b>Dữ liệu chơi game trên thiết bị.</b> Tiến trình, cài đặt và dữ liệu lưu game chỉ được lưu trên thiết bị của bạn. Thông tin này không được gửi đến chúng tôi.</li><li><b>Thông tin chẩn đoán.</b> Khi ứng dụng gặp lỗi, một số thông tin kỹ thuật cơ bản (như loại thiết bị và nhật ký lỗi) có thể được thu thập qua công cụ tiêu chuẩn của Google Play để sửa lỗi. Các báo cáo này không gắn với danh tính của bạn.</li></ul>
+<h2>Cách sử dụng thông tin</h2><p>Thông tin trên chỉ được dùng để vận hành, duy trì và cải thiện ứng dụng, ví dụ như sửa lỗi. Chúng tôi không bán thông tin cá nhân và không dùng thông tin cho quảng cáo.</p>
+<h2>Quyền riêng tư của trẻ em</h2><p>English Adventure là trò chơi giáo dục phù hợp với trẻ em. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ. Ứng dụng không có trò chuyện, không chia sẻ nội dung người dùng và không truy cập internet tự do.</p>
+<h2>Chia sẻ dữ liệu</h2><p>Chúng tôi không chia sẻ, cho thuê hay bán thông tin cho bên thứ ba vì mục đích tiếp thị. Google, với vai trò là kho ứng dụng, có thể thấy một số dữ liệu kỹ thuật theo <a href="https://policies.google.com/privacy?hl=vi">chính sách quyền riêng tư của Google</a>.</p>
+<h2>Bảo mật dữ liệu</h2><p>Dữ liệu chơi game nằm trên thiết bị của bạn. Chúng tôi bảo vệ dữ liệu chẩn đoán nhận được và chỉ giữ những gì cần thiết để sửa lỗi.</p>
+<h2>Thay đổi chính sách</h2><p>Chúng tôi có thể cập nhật chính sách này khi ứng dụng thay đổi. Ngày cập nhật ở đầu trang luôn cho biết phiên bản mới nhất. Việc tiếp tục sử dụng ứng dụng sau khi cập nhật có nghĩa là bạn chấp nhận chính sách mới.</p>
+<h2>Liên hệ</h2><p>Câu hỏi về chính sách này: <a href="mailto:englishadventuregame@gmail.com">englishadventuregame@gmail.com</a></p></div></main>
+<footer><div class="wrap"><div><strong style="color:#fff">English Adventure</strong> · Open World Learning<br><a href="mailto:englishadventuregame@gmail.com">englishadventuregame@gmail.com</a></div><div><a href="/">englishadventuregame.com</a></div></div></footer>
 <script>
-var IMG={s01:"assets/s01.png",s02:"assets/s02.png",s03:"assets/s03.png",s04:"assets/s04.png",s05:"assets/s05.png",s06:"assets/s06.png",s07:"assets/s07.png",s08:"assets/s08.png",s09:"assets/s09.png",s10:"assets/s10.png",s11:"assets/s11.png",s12:"assets/s12.png",s13:"assets/s13.png",s14:"assets/s14.png",s15:"assets/s15.png",s16:"assets/s16.png",sGame:"assets/sGame.png"};
-var lang='en';
-function T(o){return o[lang]}
-
-/* language */
-(function(){
-  var en=document.getElementById('b-en'), vi=document.getElementById('b-vi');
-  function set(l){lang=l;document.body.classList.toggle('vi',l==='vi');document.documentElement.lang=l;en.setAttribute('aria-pressed',l==='en');vi.setAttribute('aria-pressed',l==='vi');renderPanel();renderGallery();}
-  en.onclick=function(){set('en');try{localStorage.lang='en'}catch(e){}}; vi.onclick=function(){set('vi');try{localStorage.lang='vi'}catch(e){}};
-  try{if(localStorage.lang==='vi'||(!localStorage.lang&&/^vi/i.test(navigator.language)))setTimeout(function(){set('vi')},0)}catch(e){}
-  window.setLang=set;
-})();
-
-/* animated banner */
-(function(){
-  var c=document.getElementById('banner'),x=c.getContext('2d'),sheet=new Image(),f=0,t0=null,FW=320,FH=180,COLS=10,DUR=100,INTRO=50,TOTAL=80;
-  x.imageSmoothingEnabled=false;
-  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  sheet.onload=function(){ if(reduce){draw(49);return;} requestAnimationFrame(tick); };
-  sheet.src="assets/banner_sheet.png";
-  function draw(i){x.clearRect(0,0,FW,FH);x.drawImage(sheet,(i%COLS)*FW,Math.floor(i/COLS)*FH,FW,FH,0,0,FW,FH);}
-  function tick(ts){
-    if(t0===null)t0=ts;
-    var n=Math.floor((ts-t0)/DUR);
-    var i = n<INTRO ? n : INTRO+((n-INTRO)%(TOTAL-INTRO));
-    if(i!==f||n===0){f=i;draw(i);}
-    requestAnimationFrame(tick);
-  }
-})();
-
-/* feature panels */
-var PANELS={
-  lang:{title:{en:"Always shown first, then practised",vi:"Luôn được chỉ trước, rồi mới luyện tập"},
-    body:{en:"<p>Children are never asked to produce English they haven't seen. Every new word and every sentence is <b>shown first</b> — how it looks, how it sounds and how it's built — and only then do they <b>repeat it</b> themselves.</p><ol class='steps'><li><b>See it</b> — the word or sentence appears, with its picture</li><li><b>Hear it</b> — listen to the English pronunciation, spoken by both a male and a female voice</li><li><b>Build it</b> — now the child spells the word or puts the sentence together</li></ol>",
-          vi:"<p>Trẻ không bao giờ phải nói hay viết tiếng Anh mà các em chưa từng thấy. Mỗi từ mới và mỗi câu đều được <b>chỉ trước</b> — viết thế nào, đọc ra sao và ghép như thế nào — rồi sau đó các em mới <b>tự làm lại</b>.</p><ol class='steps'><li><b>Nhìn</b> — từ hoặc câu xuất hiện cùng hình ảnh</li><li><b>Nghe</b> — nghe cách phát âm tiếng Anh, do cả giọng nam và giọng nữ đọc</li><li><b>Tự làm</b> — trẻ tự đánh vần từ hoặc ghép câu</li></ol>"},
-    shots:[["s04",{en:"1. The word is shown first",vi:"1. Từ được chỉ trước"}],["s05",{en:"2. Then the child spells it",vi:"2. Rồi trẻ tự đánh vần"}],["s11",{en:"Sentences work the same way",vi:"Câu cũng học theo cách đó"}],["s07",{en:"3. Hear it: male and female voices",vi:"3. Nghe: giọng nam và giọng nữ"}]]},
-  dual:{title:{en:"Two languages, side by side",vi:"Song ngữ, song song"},
-    body:{en:"<p>Every line of the story, and every menu and question, appears in English and Vietnamese together.</p><ul><li><b>Younger learners</b> use the Vietnamese to follow the story and never get lost</li><li><b>Stronger or faster learners</b> read both lines and pick up even more English — new words, phrases and sentence patterns</li><li>Children naturally move from relying on Vietnamese to reading the English on their own</li></ul>",
-          vi:"<p>Mọi câu thoại trong truyện, cũng như menu và câu hỏi, đều hiện cả tiếng Anh và tiếng Việt.</p><ul><li><b>Các em nhỏ hơn</b> dựa vào tiếng Việt để theo dõi câu chuyện, không bao giờ bị lạc</li><li><b>Các em giỏi hoặc học nhanh hơn</b> đọc cả hai dòng để học thêm tiếng Anh — từ mới, cụm từ và mẫu câu</li><li>Trẻ dần dần chuyển từ dựa vào tiếng Việt sang tự đọc tiếng Anh</li></ul>"},
-    shots:[["sGame",{en:"Owly speaks in both languages",vi:"Owly nói cả hai ngôn ngữ"}],["s12",{en:"Questions and choices in both languages too",vi:"Câu hỏi và lựa chọn cũng song ngữ"}]]},
-  play:{title:{en:"Learning hidden inside a real game",vi:"Việc học ẩn trong một trò chơi thật"},
-    body:{en:"<p>Children explore villages, forests and much more. Every character, challenge and battle uses the words they're learning.</p><ul><li>Explore a world full of characters to meet</li><li>Friendly battles where words are your power</li><li>Fun mini-games throughout, so there's always something new</li><li>Earn levels, coins and items as they learn</li></ul>",
-          vi:"<p>Trẻ khám phá làng mạc, khu rừng và nhiều nơi khác. Mỗi nhân vật, thử thách và trận đấu đều dùng những từ các em đang học.</p><ul><li>Khám phá thế giới với nhiều nhân vật</li><li>Những trận đấu vui nhộn nơi từ vựng là sức mạnh</li><li>Những trò chơi nhỏ vui nhộn xuyên suốt, luôn có điều mới mẻ</li><li>Lên cấp, nhận xu và vật phẩm trong lúc học</li></ul>"},
-    shots:[["s02",{en:"Explore the village",vi:"Khám phá ngôi làng"}],["s15",{en:"Mini-games around every corner",vi:"Trò chơi nhỏ ở khắp nơi"}],["s14",{en:"Word battles with the Strong Man",vi:"Đấu từ vựng với Lực sĩ"}],["s09",{en:"Level up as you learn",vi:"Lên cấp khi học"}]]},
-  practise:{title:{en:"Practise as much as they like — in lots of ways",vi:"Luyện tập thoải mái — bằng nhiều cách"},
-    body:{en:"<p>Nothing is ever locked away. Every word children find goes into their book, and they can come back to it whenever they want, as many times as they want.</p><ul><li><b>Learn</b> — every word is taught first, and children can replay the lesson from the menu at any time</li><li><b>Listen</b> — tap any word in the book to hear it again</li><li><b>Spell</b> — unscramble letters against the clock</li><li><b>Build sentences</b> — put words in order: “This is an apple.”</li><li><b>Time Trial</b> — race to beat their best time for words and sentences, and earn stars and coins</li></ul>",
-          vi:"<p>Không có gì bị khóa lại. Mỗi từ trẻ tìm được đều vào cuốn sách, và các em có thể quay lại bất cứ khi nào, bao nhiêu lần cũng được.</p><ul><li><b>Học</b> — mỗi từ đều được dạy trước, và trẻ có thể học lại bài từ menu bất cứ lúc nào</li><li><b>Nghe</b> — chạm vào từ trong sách để nghe lại</li><li><b>Đánh vần</b> — sắp xếp chữ cái trước khi hết giờ</li><li><b>Ghép câu</b> — xếp từ đúng thứ tự: “This is an apple.”</li><li><b>Time Trial</b> — thi phá kỷ lục thời gian với từ và câu, nhận sao và xu</li></ul>"},
-    shots:[["s07",{en:"Listen again in the word book",vi:"Nghe lại trong sách từ vựng"}],["s05",{en:"Spelling against the clock",vi:"Đánh vần có tính giờ"}],["s11",{en:"Build a sentence",vi:"Ghép câu"}],["s12",{en:"Time Trial: records, stars and coins",vi:"Time Trial: kỷ lục, sao và xu"}]]},
-  safe:{title:{en:"Made to be safe for children",vi:"An toàn cho trẻ"},
-    body:{en:"<p>English Adventure is a calm, closed world. Nothing gets in and nothing gets out.</p><ul><li>No advertising, ever</li><li>No chat or contact with other players</li><li>No account, name or email needed</li><li>Progress is saved only on your device</li></ul>",
-          vi:"<p>English Adventure là một thế giới yên bình, khép kín. Không có gì lọt vào, không có gì bị gửi ra ngoài.</p><ul><li>Không bao giờ có quảng cáo</li><li>Không trò chuyện hay liên lạc với người chơi khác</li><li>Không cần tài khoản, tên hay email</li><li>Tiến trình chỉ lưu trên thiết bị của bạn</li></ul>"},
-    shots:[]}
-};
-var current=null;
-var cards=[].slice.call(document.querySelectorAll('.card')),rev=document.getElementById('reveal');
-cards.forEach(function(c){c.addEventListener('click',function(){
-  var k=c.getAttribute('data-panel'); current=(current===k)?null:k; renderPanel();
-  if(current) setTimeout(function(){rev.scrollIntoView({behavior:'smooth',block:'nearest'})},50);
-});});
-document.getElementById('rclose').onclick=function(){current=null;renderPanel();};
-function renderPanel(){
-  cards.forEach(function(c){c.setAttribute('aria-expanded',c.getAttribute('data-panel')===current)});
-  if(!current){rev.classList.remove('open');return;}
-  var p=PANELS[current];
-  document.getElementById('rtext').innerHTML='<h3 class="px">'+T(p.title)+'</h3>'+T(p.body);
-  document.getElementById('rshots').innerHTML=p.shots.map(function(s){return '<figure><img src="'+IMG[s[0]]+'" alt="'+T(s[1])+'"><figcaption>'+T(s[1])+'</figcaption></figure>'}).join('');
-  rev.classList.toggle('textonly',!p.shots.length);
-  rev.classList.toggle('two',p.shots.length===2);
-  rev.classList.remove('open'); void rev.offsetWidth; rev.classList.add('open');
-}
-
-/* gallery */
-var G=[["s02",{en:"Explore the village and meet the characters",vi:"Khám phá ngôi làng và gặp gỡ các nhân vật"}],
-["sGame",{en:"Owly speaks in English and Vietnamese",vi:"Owly nói tiếng Anh và tiếng Việt"}],
-["s01",{en:"A mysterious book waits in the tower",vi:"Một cuốn sách bí ẩn trong tòa tháp"}],
-["s03",{en:"Hidden pages hold words from the ancient language: English!",vi:"Những trang sách ẩn chứa từ của ngôn ngữ cổ: tiếng Anh!"}],
-["s06",{en:"Collect pages to learn new words",vi:"Sưu tầm trang sách để học từ mới"}],
-["s07",{en:"Hear every word in your word book",vi:"Nghe từng từ trong sách từ vựng"}],
-["s05",{en:"Spell words before time runs out",vi:"Đánh vần trước khi hết giờ"}],
-["s11",{en:"Build sentences word by word",vi:"Ghép câu từng từ một"}],
-["s08",{en:"Battle the Knowledge Keeper with your words",vi:"Đấu với Người Giữ Tri Thức bằng từ vựng"}],
-["s15",{en:"Discover new places and mini-games",vi:"Khám phá nơi mới và trò chơi nhỏ"}],
-["s14",{en:"Take on the Strong Man",vi:"Thách đấu Lực sĩ"}],
-["s09",{en:"Level up and earn rewards",vi:"Lên cấp và nhận phần thưởng"}],
-["s10",{en:"Collect items and potions",vi:"Thu thập vật phẩm và bình thuốc"}],
-["s13",{en:"Time Trial: words or sentences",vi:"Time Trial: từ hoặc câu"}],
-["s12",{en:"Beat your best time to earn stars and coins",vi:"Phá kỷ lục để nhận sao và xu"}],
-["s04",{en:"Every word, clearly shown",vi:"Mỗi từ được thể hiện rõ ràng"}]];
-var gi=0,gimg=document.getElementById('gimg'),th=document.getElementById('gthumbs');
-th.innerHTML=G.map(function(g,i){return '<button data-i="'+i+'" aria-label="'+(i+1)+'"><img src="'+IMG[g[0]]+'" alt=""></button>'}).join('');
-th.addEventListener('click',function(e){var b=e.target.closest('button');if(b){gi=+b.dataset.i;renderGallery(true);}});
-document.getElementById('gprev').onclick=function(){gi=(gi+G.length-1)%G.length;renderGallery(true)};
-document.getElementById('gnext').onclick=function(){gi=(gi+1)%G.length;renderGallery(true)};
-function renderGallery(scroll){
-  var g=G[gi]; gimg.src=IMG[g[0]]; gimg.alt=T(g[1]);
-  document.getElementById('gcap').textContent=T(g[1]);
-  document.getElementById('gcount').textContent=(gi+1)+' / '+G.length;
-  [].forEach.call(th.children,function(b,i){b.setAttribute('aria-current',i===gi); if(i===gi&&scroll) b.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'});});
-}
-renderGallery(false);
-
-/* lightbox */
-var lb=document.getElementById('lb');
-document.addEventListener('click',function(e){
-  if(e.target.matches('.reveal img,.stage img')){document.getElementById('lbimg').src=e.target.src;lb.classList.add('open');}
-  else if(e.target.closest('#lb')) lb.classList.remove('open');
-});
-document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('open')});
-
-/* Owly flies alongside as you scroll */
-(function(){
-  var o=document.getElementById('owly'); if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){o.style.transform='translateY(120px)';return;}
-  var y=120,t=0;
-  function frame(){
-    var max=document.documentElement.scrollHeight-innerHeight, p=max>0?scrollY/max:0;
-    var top=90, bottom=innerHeight-(o.offsetHeight+30), target=top+p*(bottom-top);
-    y+= (target-y)*0.06; t+=0.05;
-    var bob=Math.sin(t)*6, sway=Math.sin(t*0.5)*4;
-    o.style.transform='translate('+sway+'px,'+(y+bob)+'px)';
-    requestAnimationFrame(frame);
-  }
-  requestAnimationFrame(frame);
-})();
+(function(){var en=document.getElementById('b-en'),vi=document.getElementById('b-vi');
+function set(l){document.body.classList.toggle('vi',l==='vi');document.documentElement.lang=l;en.setAttribute('aria-pressed',l==='en');vi.setAttribute('aria-pressed',l==='vi');try{localStorage.lang=l}catch(e){}}
+en.onclick=function(){set('en')};vi.onclick=function(){set('vi')};
+try{if(localStorage.lang==='vi'||(!localStorage.lang&&/^vi/i.test(navigator.language)))set('vi')}catch(e){}})();
 </script>
-</body>
-</html>
+</body></html>
